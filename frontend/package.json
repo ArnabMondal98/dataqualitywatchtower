@@ -90,4 +90,8 @@
   "engines": {
   "node": ">=18 <21"
   }
+  "dependencies": {
+  "ajv": "^6.12.6",
+  "ajv-keywords": "^3.5.2"
+  }
 }
