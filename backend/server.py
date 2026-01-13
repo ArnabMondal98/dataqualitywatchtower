@@ -993,6 +993,13 @@ async def health():
             "error": str(e)
         }
 
+@app.get("/")
+async def root():
+    return {
+        "service": "Data Quality Watchtower API",
+        "api_base": "/api",
+        "docs": "/docs"
+    }
 # Include router
 app.include_router(api_router)
 
