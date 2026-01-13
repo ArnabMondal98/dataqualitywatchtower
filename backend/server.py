@@ -979,7 +979,19 @@ async def root():
 
 @api_router.get("/health")
 async def health():
-    return {"status": "healthy", "timestamp": datetime.now(timezone.utc).isoformat()}
+    try:
+        await db.command("ping")
+        return {
+            "status": "healthy",
+            "mongodb": "connected",
+            "timestamp": datetime.now(timezone.utc).isoformat()
+        }
+    except Exception as e:
+        return {
+            "status": "unhealthy",
+            "mongodb": "error",
+            "error": str(e)
+        }
 
 # Include router
 app.include_router(api_router)
