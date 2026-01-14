@@ -128,27 +128,21 @@ MONGO_URL=<your_mongodb_connection_string>
 DB_NAME=<database_name>
 JWT_SECRET=<secret_key>
 
-
 ⚠️ Secrets are never committed to GitHub.
 
-📸 Screenshots
-Landing Page
+## 📸 Screenshots
 
-Add screenshot here
+### Landing Page
+![Landing Page](screenshots/landing-page.png)
 
-/screenshots/landing-page.png
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-Dashboard
+### API Health Check
+![API Health](screenshots/api-health.png)
 
-Add screenshot here
-
-/screenshots/dashboard.png
-
-API Health Check
-
-Add screenshot here
-
-/screenshots/health-check.png
+### Swagger API Docs
+![Swagger Docs](screenshots/swagger-docs.png)
 
 🧪 How to Run Locally
 Frontend
