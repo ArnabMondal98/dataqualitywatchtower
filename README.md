@@ -133,16 +133,16 @@ JWT_SECRET=<secret_key>
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/landing-page.png)
+![Landing Page](Screenshots/landing-page.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ### API Health Check
-![API Health](screenshots/api-health.png)
+![API Health](Screenshots/api-health.png)
 
 ### Swagger API Docs
-![Swagger Docs](screenshots/swagger-docs.png)
+![Swagger Docs](Screenshots/swagger-docs.png)
 
 🧪 How to Run Locally
 Frontend
